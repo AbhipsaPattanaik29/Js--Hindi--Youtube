@@ -22,3 +22,30 @@
 
 console.log("2" == 2) // true
 console.log("2" === 2) // false
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Premitive),  Heap(Non-Primitive)
+//stack -> variable ka copy and heap -> reference of the original value
+
+let myName = "Abhipsa"
+let anotherName = myName
+console.log(anotherName)
+
+anotherName = "Naina"
+console.log(myName)
+console.log(anotherName)
+
+
+let user1={
+    email: "patt@gmail.com",
+    name: "Gudu"
+}
+
+let user2 = user1
+
+user2.email = "pattanaik@gmail.com"
+console.log(user1.email);
+console.log(user2.email);
