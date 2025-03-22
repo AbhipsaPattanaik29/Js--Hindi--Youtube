@@ -49,3 +49,6 @@ let user2 = user1
 user2.email = "pattanaik@gmail.com"
 console.log(user1.email);
 console.log(user2.email);
+
+//bye bye
+now jump to 6
